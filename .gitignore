@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Django
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# ChromaDB / vectores
+chroma_db/
+chatbot_project/chroma_db/
+
+# Archivos cargados
+chatbot_project/media/
+media/documentos_bot/
+
+# Configuración local
+.env
+
+# VS Code
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
